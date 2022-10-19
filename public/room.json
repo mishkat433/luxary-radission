@@ -1,0 +1,47 @@
+[
+    {
+        "id": 101,
+        "title": "Single Room",
+        "para": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, incidunt ad modi ipsam explicabo atque sapiente, ex iusto laborum sunt at, eos corporis vel aperiam iure inventore blanditiis impedit corrupti voluptatum molestiae. Labore explicabo maiores accusantium magnam, ipsum tempore quaerat.",
+        "capacity": 1,
+        "badType": "Single",
+        "avatar": "S",
+        "price": 126
+    },
+    {
+        "id": 102,
+        "title": "Double Room",
+        "para": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, incidunt ad modi ipsam explicabo atque sapiente, ex iusto laborum sunt at, eos corporis vel aperiam iure inventore blanditiis impedit corrupti voluptatum molestiae. Labore explicabo maiores accusantium magnam, ipsum tempore quaerat.",
+        "capacity": 3,
+        "badType": "Double",
+        "avatar": "D",
+        "price": 264
+    },
+    {
+        "id": 103,
+        "title": "Family Room",
+        "para": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, incidunt ad modi ipsam explicabo atque sapiente, ex iusto laborum sunt at, eos corporis vel aperiam iure inventore blanditiis impedit corrupti voluptatum molestiae. Labore explicabo maiores accusantium magnam, ipsum tempore quaerat.",
+        "capacity": 10,
+        "badType": "Family",
+        "avatar": "F",
+        "price": 892
+    },
+    {
+        "id": 104,
+        "title": "Couple Room",
+        "para": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, incidunt ad modi ipsam explicabo atque sapiente, ex iusto laborum sunt at, eos corporis vel aperiam iure inventore blanditiis impedit corrupti voluptatum molestiae. Labore explicabo maiores accusantium magnam, ipsum tempore quaerat.",
+        "capacity": 2,
+        "badType": "Couple",
+        "avatar": "C",
+        "price": 126
+    },
+    {
+        "id": 105,
+        "title": "Friend's Room",
+        "para": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, incidunt ad modi ipsam explicabo atque sapiente, ex iusto laborum sunt at, eos corporis vel aperiam iure inventore blanditiis impedit corrupti voluptatum molestiae. Labore explicabo maiores accusantium magnam, ipsum tempore quaerat",
+        "capacity": 6,
+        "badType": "Friends",
+        "avatar": "Fr",
+        "price": 488
+    }
+]
