@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaCoffee, FaShower, FaTv, FaWifi, FaWineBottle } from "react-icons/fa";
 import "./Room.css"
+import { Link } from 'react-router-dom';
 
 
 const RoomSlider = () => {
@@ -14,15 +15,19 @@ const RoomSlider = () => {
             .then(data => setSlideData(data))
     }, [])
 
+    const idHandle = (id) => {
+        localStorage.setItem("id", id)
+    }
+
     const settings = {
         className: "center",
         centerMode: true,
         infinite: true,
         slidesToShow: 3,
-        speed: 500,
+        speed: 1000,
         dots: true,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 3000,
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />,
         responsive: [
@@ -80,19 +85,19 @@ const RoomSlider = () => {
             <Slider {...settings} className="">
                 {
                     slideData.map(slide => <div key={slide.id} className="card card-compact bg-none w-52 shadow-xl">
-                        <figure><img src={slide?.image} alt="Shoes" /></figure>
+                        <figure><img className='w-full h-[200px]' src={slide?.image} alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">{slide.title}</h2>
-                            <p>{slide.para}</p>
+                            <p>{slide.para.slice(0, 200)}...</p>
                             <div className='flex justify-around my-4 text-gray-400 text-xl '>
-                                <FaCoffee />
-                                <FaWifi />
-                                <FaTv />
-                                <FaShower />
-                                <FaWineBottle />
+                                <FaCoffee /> <FaWifi /><FaTv /><FaShower /><FaWineBottle />
                             </div>
-                            <div className="card-actions justify-end">
-                                <button className="btn btn-warning text-white hover:bg-white hover:text-black ">Book Now</button>
+                            <hr className='border-1 my-1 text-gray-400' />
+                            <div className=''>
+                                <h3 className=' text-xl '>Price: <span className='text-2xl font-semibold'> ${slide.price}</span>/night</h3>
+                            </div>
+                            <div className="card-actions justify-end mt-3">
+                                <Link to="/booking" onClick={() => idHandle(slide.id)} className="btn btn-warning text-white hover:bg-white hover:text-black ">Book Now</Link>
                             </div>
                         </div>
                     </div>)

@@ -1,14 +1,14 @@
 import React from 'react';
 import Activity from '../Activity/Activity';
 import HomeHeader from '../HomeHeader/HomeHeader';
-import Rooms from '../Rooms/Rooms';
+import RoomSliderMain from '../RoomSliderMain/RoomSliderMain';
 
 const Home = () => {
     return (
         <div>
             <HomeHeader />
             <Activity />
-            <Rooms />
+            <RoomSliderMain />
         </div>
     );
 };

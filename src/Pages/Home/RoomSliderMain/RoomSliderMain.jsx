@@ -1,7 +1,7 @@
 import React from 'react';
 import RoomSlider from '../RoomSlider/RoomSlider';
 
-const Rooms = () => {
+const RoomSliderMain = () => {
 
     return (
         <div className='w-11/12 mx-auto py-16'>
@@ -14,4 +14,4 @@ const Rooms = () => {
     );
 };
 
-export default Rooms;
+export default RoomSliderMain;

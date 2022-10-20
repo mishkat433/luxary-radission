@@ -6,7 +6,8 @@
         "capacity": 1,
         "badType": "Single",
         "avatar": "S",
-        "price": 126
+        "price": 126,
+        "image": "https://www.frasershospitality.com/content/dam/frasers-hospitality/english/properties/united-kingdom/south-kensington/park-international-hotel-south-kensington/images/gallery-images/rooms/room-type-images/single-room/PIHL_Room%20Detail_Single%20Room_Bedroom.jpg"
     },
     {
         "id": 102,
@@ -15,7 +16,8 @@
         "capacity": 3,
         "badType": "Double",
         "avatar": "D",
-        "price": 264
+        "price": 264,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmUTXzex0osSAyH635bvn5Fg7Gth3CLwnhdA&usqp=CAU"
     },
     {
         "id": 103,
@@ -24,7 +26,8 @@
         "capacity": 10,
         "badType": "Family",
         "avatar": "F",
-        "price": 892
+        "price": 892,
+        "image": "https://www.theconnacht.ie/files/hotel/hotel-connacht/02_Rooms_Suites/TCH_family.jpg?h=780&w=1200"
     },
     {
         "id": 104,
@@ -33,7 +36,8 @@
         "capacity": 2,
         "badType": "Couple",
         "avatar": "C",
-        "price": 126
+        "price": 126,
+        "image": "https://myokosilverhorn.com/winter/wp-content/uploads/2018/03/1-Hotel-Room-1280x720-40.jpg"
     },
     {
         "id": 105,
@@ -42,6 +46,7 @@
         "capacity": 6,
         "badType": "Friends",
         "avatar": "Fr",
-        "price": 488
+        "price": 488,
+        "image": "https://www.regalhotel.com/uploads/roh/accommodations/720x475/ROH_RM629-Family-Room-Quadruple.jpg"
     }
 ]
