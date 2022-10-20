@@ -48,9 +48,9 @@ const RoomSlider = () => {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    centerPadding: "0px",
-                    nextArrow: <SampleNextArrow />,
-                    prevArrow: <SamplePrevArrow />,
+                    centerPadding: "1px",
+                    nextArrow: null,
+                    prevArrow: null,
                 }
             }
         ]
@@ -84,7 +84,7 @@ const RoomSlider = () => {
         <div >
             <Slider {...settings} className="">
                 {
-                    slideData.map(slide => <div key={slide.id} className="card card-compact bg-none w-52 shadow-xl">
+                    slideData.map(slide => <div key={slide.id} className="card card-compact bg-none lg:w-52 shadow-xl">
                         <figure><img className='w-full h-[200px]' src={slide?.image} alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">{slide.title}</h2>

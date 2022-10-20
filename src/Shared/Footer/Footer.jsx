@@ -27,9 +27,9 @@ const Footer = () => {
                         <li>Contact</li>
                     </ul>
                     <div className="form-control ">
-                        <label className="input-group">
-                            <input type="emal" placeholder="example@gmail.com" className="input text-black input-bordered" required />
-                            <button type='submit' className='btn btn-warning  w-20'>Send</button>
+                        <label className="input-group ">
+                            <input type="emal" placeholder="example@gmail.com" className="input w-3/5 md:w-full text-black input-bordered" required />
+                            <button type='submit' className='btn btn-warning  w-16 lg:w-20'>Send</button>
                         </label>
                     </div>
                 </div>
