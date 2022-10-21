@@ -26,10 +26,10 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal p-0">
-                        <li><NavLink to="/home" className={({ isActive }) => isActive ? "text-cyan-700 font-semibold" : undefined}>Home</NavLink></li>
-                        <li><NavLink to="/rooms" className={({ isActive }) => isActive ? "text-cyan-700 font-semibold" : undefined}>Rooms</NavLink></li>
-                        <li><NavLink to="/blog" className={({ isActive }) => isActive ? "text-cyan-700 font-semibold" : undefined}>Blog</NavLink></li>
-                        <li><NavLink to="/contact" className={({ isActive }) => isActive ? "text-cyan-700 font-semibold" : undefined}>Contact</NavLink></li>
+                        <li><NavLink to="/home" className={({ isActive }) => isActive ? "text-cyan-700 font-semibold mx-1" : undefined}>Home</NavLink></li>
+                        <li><NavLink to="/rooms" className={({ isActive }) => isActive ? "text-cyan-700 font-semibold mx-1" : undefined}>Rooms</NavLink></li>
+                        <li><NavLink to="/blog" className={({ isActive }) => isActive ? "text-cyan-700 font-semibold mx-1" : undefined}>Blog</NavLink></li>
+                        <li><NavLink to="/contact" className={({ isActive }) => isActive ? "text-cyan-700 font-semibold mx-1" : undefined}>Contact</NavLink></li>
 
                     </ul>
                 </div>

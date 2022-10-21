@@ -27,7 +27,7 @@ const activityData = [
 
 const Activity = () => {
     return (
-        <div className='flex flex-col md:flex-row justify-between w-11/12 mx-auto mb-10'>
+        <div className='flex flex-col md:flex-row justify-between w-11/12 mx-auto mb-10 gap-10'>
             {
                 activityData.map(cart => <ActivityCart cart={cart} key={cart.id} />)
             }
